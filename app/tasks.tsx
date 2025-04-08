@@ -145,8 +145,8 @@ export default function TasksScreen() {
     const newTask: Task = {
       id: Date.now().toString(),
       name: `Task ${tasks.length + 1}`,
-      duration: 60, // 60 seconds
-      timeRemaining: 60,
+      duration: 5, // set timer static
+      timeRemaining: 5,
       isActive: false,
     };
 
